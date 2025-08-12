@@ -21,7 +21,6 @@ export default function Home() {
         animation: "gradientBG 40s ease infinite",
       }}
     >
-      {/* Animasi CSS */}
       <style>{`
         @keyframes gradientBG {
           0% {background-position:0% 50%;}
@@ -68,7 +67,6 @@ export default function Home() {
         }
       `}</style>
 
-      {/* Awan */}
       <img
         src="https://cdn-icons-png.flaticon.com/512/414/414927.png"
         alt="Cloud"
@@ -96,7 +94,6 @@ export default function Home() {
         }}
       />
 
-      {/* Pesawat */}
       <img
         src="https://cdn-icons-png.flaticon.com/512/921/921490.png"
         alt="Plane"
@@ -112,7 +109,6 @@ export default function Home() {
         }}
       />
 
-      {/* Burung-burung */}
       <img
         src="https://cdn-icons-png.flaticon.com/512/616/616408.png"
         alt="Birds"
@@ -140,7 +136,6 @@ export default function Home() {
         }}
       />
 
-      {/* Card */}
       <div
         style={{
           padding: "40px",
